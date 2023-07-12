@@ -96,14 +96,14 @@ label{
     font-weight: 600;
 }
 
-.c-error__image{
+.c-error__image__name, .c-error__image__last-name, .c-error__image__email, .c-error__image__password{
     display: none;
     position: absolute;
-    top:38%;
+    top:25px;
     right: 16px;
 }
 
-.c-error{
+.c-error__name, .c-error__last-name, .c-error__email, .c-error__password{
     display: none;
 }
 .c-submit{

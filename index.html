@@ -32,40 +32,40 @@
               <strong>Try it free 7 days</strong> then $20/mo. thereafter
             </p>
 
-            <form class="l-form">
+            <form class="l-form" id="form">
               <label for="name">
                 <input type="text" placeholder="First Name" class="c-field" id="name">
-                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image">
-                <small class="c-error"><span class="c-red">First name cannot be empty</span></small>
+                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image__name"  id="imageErrorName">
+                <small class="c-error__name" id="errorName"><span class="c-red">First name cannot be empty</span></small>
               </label>
               <label for="lastName">
                 <input type="text" placeholder="Last Name" class="c-field" id="lastname">
-                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image">
-                <small class="c-error"><span class="c-red">Last name cannot be empty</span></small>
+                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image__last-name" id="imageErrorLastName">
+                <small class="c-error__last-name" id="errorLastName"><span class="c-red">Last name cannot be empty</span></small>
               </label>
               <label for="email">
                 <input type="email" placeholder="Email Address" class="c-field" id="email">
-                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image">
-                <small class="c-error"><span class="c-red">Look like this is not an email</span></small>
+                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image__email" id="imageErrorEmail">
+                <small class="c-error__email" id="errorEmail"><span class="c-red">Look like this is not an email</span></small>
               </label>
               <label for="password">
-                <input type="password" placeholder="Password" class="c-field" id="password">
-                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image">
-                <small class="c-error"><span class="c-red">Password cannot be emp</span></small>
+                <input type="password" placeholder="Password" class="c-field" id="password" >
+                <img src="images/icon-error.svg" alt="Error icon" class="c-error__image__password"  id="imageErrorPassword">
+                <small class="c-error__password" id="errorPassword"><span class="c-red">Password cannot be emp</span></small>
               </label>
 
               <div class="l-button__wrapper">
-                <input type="button" value="Claim your free trial" class="c-submit">
+                <input type="submit" value="Claim your free trial" class="c-submit" id="submit">
                 <small class="c-footer">By clicking the button, you are agreeing to our <span class="c-red">Terms and Services</span></small>
               </div>
             </form>
-            
-            
+                        
           </div>
         </div>
       </main>
     </div>
   </header>
   
+  <script src="script.js"></script>
 </body>
 </html>
